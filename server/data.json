@@ -1,0 +1,153 @@
+{
+  "version": 2,
+  "accounts": {
+    "legacy": {
+      "cash": 100000,
+      "holdings": {},
+      "orders": [],
+      "trades": [],
+      "realizedPnl": 0,
+      "createdAt": "2026-11-15T00:00:00.000Z"
+    },
+    "c7bb9c75-906d-443a-9e65-a3024cd18465": {
+      "cash": 2241.760000000002,
+      "holdings": {
+        "BTCUSDT": {
+          "quantity": 0.016,
+          "avgPrice": 6109890
+        }
+      },
+      "orders": [
+        {
+          "orderId": "AG-CF91077C-1",
+          "user": "c7bb9c75-906d-443a-9e65-a3024cd18465",
+          "symbol": "BTCUSDT",
+          "side": "BUY",
+          "price": 6109887.725754839,
+          "quantity": 0.001,
+          "filledQuantity": 0.001,
+          "status": "FILLED",
+          "createdAt": "2026-11-15T17:20:15.765Z",
+          "executionMode": "INSTANT_DEMO",
+          "updatedAt": "2026-11-15T17:20:15.765Z"
+        },
+        {
+          "orderId": "AG-0A71083C-F",
+          "user": "c7bb9c75-906d-443a-9e65-a3024cd18465",
+          "symbol": "BTCUSDT",
+          "side": "BUY",
+          "price": 6109887.725754839,
+          "quantity": 0.003,
+          "filledQuantity": 0.003,
+          "status": "FILLED",
+          "createdAt": "2026-11-15T17:20:21.846Z",
+          "executionMode": "INSTANT_DEMO",
+          "updatedAt": "2026-11-15T17:20:21.846Z"
+        },
+        {
+          "orderId": "AG-21182ADD-1",
+          "user": "c7bb9c75-906d-443a-9e65-a3024cd18465",
+          "symbol": "BTCUSDT",
+          "side": "BUY",
+          "price": 6109887.725754839,
+          "quantity": 0.004,
+          "filledQuantity": 0.004,
+          "status": "FILLED",
+          "createdAt": "2026-11-15T17:20:40.442Z",
+          "executionMode": "INSTANT_DEMO",
+          "updatedAt": "2026-11-15T17:20:40.442Z"
+        },
+        {
+          "orderId": "AG-26296EF1-7",
+          "user": "c7bb9c75-906d-443a-9e65-a3024cd18465",
+          "symbol": "BTCUSDT",
+          "side": "BUY",
+          "price": 6109887.725754839,
+          "quantity": 0.004,
+          "filledQuantity": 0.004,
+          "status": "FILLED",
+          "createdAt": "2026-11-15T17:20:48.693Z",
+          "executionMode": "INSTANT_DEMO",
+          "updatedAt": "2026-11-15T17:20:48.693Z"
+        },
+        {
+          "orderId": "AG-505C6AB4-8",
+          "user": "c7bb9c75-906d-443a-9e65-a3024cd18465",
+          "symbol": "BTCUSDT",
+          "side": "BUY",
+          "price": 6109887.725754839,
+          "quantity": 0.004,
+          "filledQuantity": 0.004,
+          "status": "FILLED",
+          "createdAt": "2026-11-15T17:20:50.708Z",
+          "executionMode": "INSTANT_DEMO",
+          "updatedAt": "2026-11-15T17:20:50.708Z"
+        }
+      ],
+      "trades": [
+        {
+          "id": "TRD-000001",
+          "symbol": "BTCUSDT",
+          "buyOrderId": "AG-CF91077C-1",
+          "sellOrderId": "DEMO-LIQ-C6173C5E",
+          "buyer": "c7bb9c75-906d-443a-9e65-a3024cd18465",
+          "seller": "ASGARD_DEMO_LIQUIDITY",
+          "price": 6109890,
+          "qty": 0.001,
+          "liquiditySource": "DEMO LIQUIDITY",
+          "createdAt": "2026-11-15T17:20:15.765Z"
+        },
+        {
+          "id": "TRD-000002",
+          "symbol": "BTCUSDT",
+          "buyOrderId": "AG-0A71083C-F",
+          "sellOrderId": "DEMO-LIQ-EE860CA1",
+          "buyer": "c7bb9c75-906d-443a-9e65-a3024cd18465",
+          "seller": "ASGARD_DEMO_LIQUIDITY",
+          "price": 6109890,
+          "qty": 0.003,
+          "liquiditySource": "DEMO LIQUIDITY",
+          "createdAt": "2026-11-15T17:20:21.846Z"
+        },
+        {
+          "id": "TRD-000003",
+          "symbol": "BTCUSDT",
+          "buyOrderId": "AG-21182ADD-1",
+          "sellOrderId": "DEMO-LIQ-7F08F7DF",
+          "buyer": "c7bb9c75-906d-443a-9e65-a3024cd18465",
+          "seller": "ASGARD_DEMO_LIQUIDITY",
+          "price": 6109890,
+          "qty": 0.004,
+          "liquiditySource": "DEMO LIQUIDITY",
+          "createdAt": "2026-11-15T17:20:40.442Z"
+        },
+        {
+          "id": "TRD-000004",
+          "symbol": "BTCUSDT",
+          "buyOrderId": "AG-26296EF1-7",
+          "sellOrderId": "DEMO-LIQ-442D993C",
+          "buyer": "c7bb9c75-906d-443a-9e65-a3024cd18465",
+          "seller": "ASGARD_DEMO_LIQUIDITY",
+          "price": 6109890,
+          "qty": 0.004,
+          "liquiditySource": "DEMO LIQUIDITY",
+          "createdAt": "2026-11-15T17:20:48.693Z"
+        },
+        {
+          "id": "TRD-000005",
+          "symbol": "BTCUSDT",
+          "buyOrderId": "AG-505C6AB4-8",
+          "sellOrderId": "DEMO-LIQ-E1419B27",
+          "buyer": "c7bb9c75-906d-443a-9e65-a3024cd18465",
+          "seller": "ASGARD_DEMO_LIQUIDITY",
+          "price": 6109890,
+          "qty": 0.004,
+          "liquiditySource": "DEMO LIQUIDITY",
+          "createdAt": "2026-11-15T17:20:50.708Z"
+        }
+      ],
+      "realizedPnl": 0,
+      "createdAt": "2026-11-15T17:19:46.910Z"
+    }
+  }
+}

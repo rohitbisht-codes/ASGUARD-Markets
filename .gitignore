@@ -1,0 +1,9 @@
+node_modules/
+frontend/dist/
+engine/*.exe
+engine/matching_engine
+engine_test
+*.log
+.env
+.env.*
+!.env.example

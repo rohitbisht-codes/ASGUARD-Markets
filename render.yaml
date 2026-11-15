@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: asguard-markets-api
+    runtime: node
+    plan: free
+    buildCommand: bash deployment/render-build.sh
+    startCommand: npm start --prefix server
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production

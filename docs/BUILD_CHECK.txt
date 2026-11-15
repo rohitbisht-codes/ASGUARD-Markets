@@ -1,0 +1,12 @@
+Build and test verification (2026-11-15)
+
+PASS — C++17 matching engine compiles with g++ -O2 -Wall -Wextra.
+PASS — C++ matching-engine tests, including symbol isolation, partial fills, price priority, duplicate ID rejection, cancellation and reset.
+PASS — Node.js syntax checks for API, engine bridge, portfolio logic and state repository.
+PASS — JSX parse/transpile check using the installed TypeScript compiler after the editorial landing page and chart additions.
+PASS — Backend portfolio unit tests: buy accounting, sell realized P&L, open-order reservations and partial/full fill state.
+NOT VERIFIED — Full Vite production build and full Express HTTP integration against public providers; dependencies are not bundled in this ZIP. Run npm.cmd install in server and frontend on Windows, then start-local.cmd.
+
+UI: Editorial luxury welcome page, CSS-built 3D orb, Enter Markets transition, dark terminal, line/candlestick/OHLC bar chart modes, timeframe selector, SMA 20 and EMA 9 overlays.
+Market data: Binance public Spot market data, Gold API XAU spot, and USD/INR reference conversion. Provider availability/rate limits apply.
+No real broker, real deposit, KYC, live order routing or production HFT is implemented. Indian equity watchlist prices are illustrative.
